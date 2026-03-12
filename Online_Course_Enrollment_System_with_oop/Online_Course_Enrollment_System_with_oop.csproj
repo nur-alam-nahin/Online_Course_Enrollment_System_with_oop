@@ -44,8 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Course.cs" />
+    <Compile Include="Entities\CourseType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="service\LiveCourseFee.cs" />
+    <Compile Include="service\priceCalculation.cs" />
+    <Compile Include="service\RecordedCourseFee.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
